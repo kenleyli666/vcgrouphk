@@ -582,13 +582,13 @@ header #cross-btn:hover {
 }
 .partner .row h1 {
   color: var(--text2-color);
-  font-size: 2.5rem;
+  font-size: 5vmin;
   margin: 0 1rem;
   text-align: center;
 }
 .partner .row p {
   color: var(--text2-color);
-  font-size: 1.9rem;
+  font-size: 4vmin;
   margin: 0.5rem;
 }
 .partner .row .content div {
