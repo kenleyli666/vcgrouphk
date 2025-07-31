@@ -582,13 +582,13 @@ header #cross-btn:hover {
 }
 .partner .row h1 {
   color: var(--text2-color);
-  font-size: 5vmin;
+  font-size: 4vmin;
   margin: 0 1rem;
   text-align: center;
 }
 .partner .row p {
   color: var(--text2-color);
-  font-size: 4vmin;
+  font-size: 2.8vmin;
   margin: 0.5rem;
 }
 .partner .row .content div {
@@ -1569,6 +1569,12 @@ td {
   .partner .row {
     grid-template-columns: repeat(auto-fit, minmax(80%, 1fr));
     width: 100%;
+  }
+  .partner .row h1 {
+    font-size: 5.5vmin;
+  }
+  .partner .row p {
+    font-size: 4vmin;
   }
   .smeloan .row {
     grid-template-columns: repeat(auto-fit, minmax(80%, 1fr));
