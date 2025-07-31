@@ -1556,6 +1556,12 @@ td {
     width: 90%;
     height: 100%;
   }
+  .home .box .content h1 {
+    font-size: 6vmin;
+  }
+  .home .box .content p {
+    font-size: 4vmin;
+  }
   .home .swiper-button-next,
   .swiper-button-prev {
     display: none;
