@@ -28,7 +28,7 @@ html {
   font-size: 66%;
 }
 body {
-  background: var(--bg-color);
+  background: var(--loanClac-color);
   width: 100%;
   height: 100vh;
 }
@@ -918,7 +918,7 @@ header #cross-btn:hover {
     width: 100%;
   }
   .footer {
-    margin-top: 10vh;
+    margin-top: -10vh;
   }
 }
 /* ***************End width<=1024px*************** */
