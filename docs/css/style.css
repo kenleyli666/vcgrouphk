@@ -1567,6 +1567,12 @@ td {
   .smeloan .row {
     grid-template-columns: repeat(auto-fit, minmax(80%, 1fr));
   }
+  .smeloan .row .box h1 {
+    font-size: 6vmin;
+  }
+  .smeloan .row .box p {
+    font-size: 4.7vmin;
+  }
   .ploan .row {
     grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
     width: 100%;
@@ -1639,6 +1645,9 @@ td {
   }
   .ploan .row .box .content p {
     font-size: 1.5rem;
+  }
+  .details p {
+    font-size: 4.2vmin;
   }
 }
 /* ***************End width<=550px*************** */
