@@ -938,7 +938,7 @@ header #cross-btn:hover {
   .whatsapp {
     padding-right: 27px;
     right: 24px;
-    bottom: 120px;
+    bottom: 100px;
   }
   .whatsapp .whatsapp-btn {
     font-size: 17vmin;
@@ -950,7 +950,7 @@ header #cross-btn:hover {
   }
   .scroll-to-top {
     position: fixed;
-    right: 63.5px !important;
+    right: 60.5px !important;
   }
   /* *****END of Whatsapp & ScrollTop***** */
 }
@@ -959,3 +959,4 @@ header #cross-btn:hover {
 /* ***************Start width<=550px*************** */
 
 /* ***************End width<=550px*************** */
+
