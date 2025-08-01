@@ -1628,7 +1628,7 @@ td {
   .whatsapp {
     padding-right: 27px;
     right: 24px;
-    bottom: 110px;
+    bottom: 105px;
   }
   .whatsapp .whatsapp-btn {
     font-size: 17vmin;
@@ -1640,7 +1640,7 @@ td {
   }
   .scroll-to-top {
     position: fixed;
-    right: 62px !important;
+    right: 61px !important;
   }
   /* *****END of Whatsapp & ScrollTop***** */
 
@@ -1696,4 +1696,5 @@ td {
   }
 }
 /* ***************End width<=550px*************** */
+
 
