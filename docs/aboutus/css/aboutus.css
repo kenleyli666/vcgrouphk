@@ -1111,7 +1111,7 @@ input[type="reset"]:hover {
   .whatsapp {
     padding-right: 27px;
     right: 24px;
-    bottom: 120px;
+    bottom: 100px;
   }
   .whatsapp .whatsapp-btn {
     font-size: 17vmin;
@@ -1123,7 +1123,7 @@ input[type="reset"]:hover {
   }
   .scroll-to-top {
     position: fixed;
-    right: 63.5px !important;
+    right: 60.5px !important;
   }
   /* *****END of Whatsapp & ScrollTop***** */
   /* End text-animation */
@@ -1150,3 +1150,4 @@ input[type="reset"]:hover {
   }
 }
 /* ***************End width<=550px*************** */
+
