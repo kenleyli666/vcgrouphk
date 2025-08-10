@@ -853,7 +853,7 @@ input:checked ~ .details {
   color: var(--text1-color);
 }
 .footer p {
-  font-size: 4vmin;
+  font-size: 3.8vmin;
   margin: 1rem 0;
   color: var(--text1-color);
 }
@@ -1696,4 +1696,5 @@ td {
   }
 }
 /* ***************End width<=550px*************** */
+
 
