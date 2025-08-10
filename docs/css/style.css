@@ -43,6 +43,7 @@ h2 {
 h2::before {
   content: attr(data-text);
   position: absolute;
+  font-size: 6vmin;
   width: 0;
   height: 100%;
   color: var(--hover-color);
@@ -1696,5 +1697,6 @@ td {
   }
 }
 /* ***************End width<=550px*************** */
+
 
 
