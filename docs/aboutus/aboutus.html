@@ -13,7 +13,11 @@
     style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://unpkg.com https://cdn.tailwindcss.com https://fonts.googleapis.com;
     img-src 'self' data: https: https://maps.googleapis.com https://maps.gstatic.com;
     font-src 'self' https://cdnjs.cloudflare.com https://unpkg.com https://fonts.gstatic.com data: https://kit-free.fontawesome.com;
-    connect-src 'self' https://cdn.tailwindcss.com https://api.emailjs.com;
+    connect-src 'self' 
+        https://cdn.tailwindcss.com 
+        https://api.emailjs.com
+        https://www.google-analytics.com    <!-- 新增 -->
+        https://www.googletagmanager.com;   <!-- 新增 -->
     frame-src https://www.google.com https://maps.google.com;
     object-src 'none';
     base-uri 'self';
@@ -360,4 +364,5 @@
     <script src="../js/vcgsearchinput.js"></script>
     <script src="../js/scroll-to-top.js"></script>
 </body>
+
 </html>
