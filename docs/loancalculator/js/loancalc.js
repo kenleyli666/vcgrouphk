@@ -316,7 +316,7 @@ function generateLoanPlans(amount, term) {
 
   const plans = [
     {
-      name: "現時標準方案",
+      name: "通用標準方案",
       aprRate: baseAprRate, // UPDATE: 使用动态基础利率
       features: [
         "HKD 0 手續費 (指定銀行/財務公司)",
@@ -474,3 +474,4 @@ document.addEventListener("DOMContentLoaded", () => {
   syncInputAndSlider(aprRateInput, aprRateSlider);
   syncInputAndSlider(flatRateInput, flatRateSlider);
 });
+
