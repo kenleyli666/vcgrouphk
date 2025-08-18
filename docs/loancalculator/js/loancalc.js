@@ -289,6 +289,15 @@ function calculateLoanDetails() {
                         <i class="fas fa-file-alt mr-2"></i> 申請此貸款方案
                     </button>
                 </div>
+
+                <div class="mb-4 p-3 bg-yellow-50 text-yellow-700 rounded-lg text-md">
+                    <p class="font-medium">說明：</p>
+                    <p>實際年利率（APR）採用等額本息計算，月平息(Flat)採用均等本息計算。因計息方式不同，每月還款額存在差異：</p>
+                    <ul class="list-disc pl-5 mt-2">
+                      <li><strong>APR 模型</strong>：利息隨本金遞減，前期還款利息較高</li>
+                      <li><strong>Flat 模型</strong>：每月利息固定，總利息通常低於 APR</li>
+                    </ul>
+                </div>
             `;
 
   // 生成貸款方案卡片
@@ -311,7 +320,9 @@ function generateLoanPlans(amount, term) {
     return;
   }
 
-  // 计算现金回赠金额（贷款金额的1%）
+  // 清空容器並先插入說明區塊
+  loanPlansContainer.innerHTML = "";
+
   const cashReward = amount * 0.01; // UPDATE: 新增动态计算回赠金额
 
   const plans = [
@@ -340,8 +351,6 @@ function generateLoanPlans(amount, term) {
         " 優惠須通過信用評估，銀行/財務公司有權隨時終止有關優惠或修改其詳情及條款及細則而不作另行通知。", // 新增条款说明
     },
   ];
-
-  loanPlansContainer.innerHTML = "";
 
   plans.forEach((plan, index) => {
     const monthlyPayment = calculateMonthlyPaymentFromApr(
@@ -474,4 +483,3 @@ document.addEventListener("DOMContentLoaded", () => {
   syncInputAndSlider(aprRateInput, aprRateSlider);
   syncInputAndSlider(flatRateInput, flatRateSlider);
 });
-
