@@ -58,7 +58,7 @@ h2::before {
   }
   70%,
   90% {
-    width: 100%;
+    width: 110%;
     border-color: transparent;
   }
 }
@@ -961,3 +961,4 @@ header #cross-btn:hover {
 /* ***************Start width<=550px*************** */
 
 /* ***************End width<=550px*************** */
+
