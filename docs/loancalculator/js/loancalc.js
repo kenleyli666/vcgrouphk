@@ -292,7 +292,7 @@ function calculateLoanDetails() {
 
                 <div class="mb-4 p-3 bg-yellow-50 text-yellow-700 rounded-lg text-md">
                     <p class="font-medium">說明：</p>
-                    <p>實際年利率（APR）採用等額本息計算，月平息(Flat)採用均等本息計算。因計息方式不同，每月還款額存在差異：</p>
+                    <p>實際年利率(APR)採用等額本息計算，月平息(Flat)採用均等本息計算。因計息方式不同，每月還款額存在差異：</p>
                     <ul class="list-disc pl-5 mt-2">
                       <li><strong>APR 模型</strong>：利息隨本金遞減，前期還款利息較高</li>
                       <li><strong>Flat 模型</strong>：每月利息固定，總利息通常低於 APR</li>
@@ -483,3 +483,4 @@ document.addEventListener("DOMContentLoaded", () => {
   syncInputAndSlider(aprRateInput, aprRateSlider);
   syncInputAndSlider(flatRateInput, flatRateSlider);
 });
+
