@@ -532,7 +532,7 @@ input[type="reset"]:hover {
   color: var(--text1-color);
 }
 .footer i {
-  font-size: 3.8vmin;
+  font-size: 2.6rem;
   margin: 1rem 0.5rem;
   color: var(--text1-color);
   border-radius: 50%;
@@ -1150,3 +1150,4 @@ input[type="reset"]:hover {
   }
 }
 /* ***************End width<=550px*************** */
+
